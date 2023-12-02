@@ -57,7 +57,7 @@ and optimized:
 ![Getting Started](images/clustersPCA.png)
 
 
-## Results
+## Conclusion
 
 It appears that the optimal number of cryptocurrency clusters suggested based on the analysis of the original DataFrame with all of the factors is the same as using optimization techniques(PCA), and equals to 4. 
 
