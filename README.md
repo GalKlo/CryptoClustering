@@ -28,14 +28,16 @@ Before conducting the analysis data was scaled using StandardScaler.
 
 The analysis was performed on the original scaled data, as well as the optimized dataset, where a PCA was performed to reduce the features of the original DataFrame to 3 principal components with the total explained variance of 89%.
 
+![Getting Started](images/PCA3.png)
+
 ### Steps to cluster the cryptocurrenscies on both DataFrames (original scaled and optimized):
 - Applying elbow method to find the best number of clusters (k value)
 
-for original DataFrame
+for original DataFrame:
 
 ![Getting Started](images/ElbowCurve0.png)
 
-and optimized
+and optimized:
 
 ![Getting Started](images/ElbowCurvePCA.png)
 
@@ -46,11 +48,11 @@ and optimized
 - Predicting the clusters to group the cryptocurrencies.
 - Visualizing the results using a scatter plot for both 
 
-for original DataFrame
+for original DataFrame:
 
 ![Getting Started](images/clusters0.png)
 
-and optimized
+and optimized:
 
 ![Getting Started](images/clustersPCA.png)
 
